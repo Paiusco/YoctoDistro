@@ -1,0 +1,45 @@
+{
+    "sources": {
+        "meta-raspberrypi": {
+            "git-remote": {
+                "branch": "mickledore",
+                "describe": "",
+                "remotes": {
+                    "origin": {
+                        "uri": "https://git.yoctoproject.org/meta-raspberrypi"
+                    }
+                },
+                "rev": "aa0aed9a08d6578a18c4eeb3b44ed8354a57ebee"
+            },
+            "path": "yocto-distro/meta-raspberrypi"
+        },
+        "poky": {
+            "git-remote": {
+                "branch": "mickledore",
+                "describe": "yocto-4.2.2-134-gaa63b25cbe",
+                "remotes": {
+                    "origin": {
+                        "uri": "https://github.com/yoctoproject/poky.git"
+                    }
+                },
+                "rev": "aa63b25cbe25d89ab07ca11ee72c17cab68df8de"
+            },
+            "path": "yocto-distro/poky"
+        },
+        "yocto-distro": {
+            "contains_this_file": true,
+            "git-remote": {
+                "branch": "main",
+                "describe": "",
+                "remotes": {
+                    "origin": {
+                        "uri": "git@github.com:Paiusco/YoctoDistro.git"
+                    }
+                },
+                "rev": "27367b0641c9f93788b2872e5ae32289621767ec"
+            },
+            "path": "yocto-distro"
+        }
+    },
+    "version": "1.0"
+}
