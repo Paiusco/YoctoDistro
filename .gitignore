@@ -1,4 +1,5 @@
 build/
 
 poky/
-meta-raspberrypi/
+meta-*/
+!meta-yocto-distro/
