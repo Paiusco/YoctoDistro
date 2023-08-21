@@ -1,5 +1,18 @@
 {
     "sources": {
+        "meta-openembedded": {
+            "git-remote": {
+                "branch": "mickledore",
+                "describe": "",
+                "remotes": {
+                    "origin": {
+                        "uri": "https://github.com/openembedded/meta-openembedded.git"
+                    }
+                },
+                "rev": "b0ba472191c2b7709ef04ae9c5a23bea040518f9"
+            },
+            "path": "yocto-distro/meta-openembedded"
+        },
         "meta-raspberrypi": {
             "git-remote": {
                 "branch": "mickledore",
@@ -13,30 +26,56 @@
             },
             "path": "yocto-distro/meta-raspberrypi"
         },
-        "poky": {
+        "meta-rauc": {
             "git-remote": {
                 "branch": "mickledore",
-                "describe": "yocto-4.2.2-134-gaa63b25cbe",
+                "describe": "",
+                "remotes": {
+                    "origin": {
+                        "uri": "https://github.com/rauc/meta-rauc.git"
+                    }
+                },
+                "rev": "5a7cf7efd0a1ef9a946d51ba0a4bacdedefb4141"
+            },
+            "path": "yocto-distro/meta-rauc"
+        },
+        "meta-rauc-community": {
+            "git-remote": {
+                "branch": "master",
+                "describe": "",
+                "remotes": {
+                    "origin": {
+                        "uri": "https://github.com/rauc/meta-rauc-community.git"
+                    }
+                },
+                "rev": "052f2a1f598b1787fe6202911f72b87da3941862"
+            },
+            "path": "yocto-distro/meta-rauc-community"
+        },
+        "poky": {
+            "git-remote": {
+                "branch": "HEAD",
+                "describe": "mickledore-4.2",
                 "remotes": {
                     "origin": {
                         "uri": "https://github.com/yoctoproject/poky.git"
                     }
                 },
-                "rev": "aa63b25cbe25d89ab07ca11ee72c17cab68df8de"
+                "rev": "21790e71d55f417f27cd51fae9dd47549758d4a0"
             },
             "path": "yocto-distro/poky"
         },
         "yocto-distro": {
             "contains_this_file": true,
             "git-remote": {
-                "branch": "main",
+                "branch": "first-image-embedfoss",
                 "describe": "",
                 "remotes": {
                     "origin": {
                         "uri": "git@github.com:Paiusco/YoctoDistro.git"
                     }
                 },
-                "rev": "27367b0641c9f93788b2872e5ae32289621767ec"
+                "rev": "9d952ba35d614be30fe957f62816ea47e024ab2c"
             },
             "path": "yocto-distro"
         }
