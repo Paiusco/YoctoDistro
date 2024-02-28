@@ -16,5 +16,4 @@ BBLAYERS ?= " \
   ##OEROOT##/../meta-openembedded/meta-python \
   ##OEROOT##/../meta-openembedded/meta-networking \
   ##OEROOT##/../meta-openembedded/meta-multimedia \
-  ##OEROOT##/../meta-rauc-community/meta-rauc-raspberrypi \
   "

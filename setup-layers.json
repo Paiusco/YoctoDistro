@@ -2,53 +2,53 @@
     "sources": {
         "meta-openembedded": {
             "git-remote": {
-                "branch": "mickledore",
+                "branch": "master",
                 "describe": "",
                 "remotes": {
                     "origin": {
                         "uri": "https://github.com/openembedded/meta-openembedded.git"
                     }
                 },
-                "rev": "b0ba472191c2b7709ef04ae9c5a23bea040518f9"
+                "rev": "0e18a0cea962a187cffcca248b1685924742afd4"
             },
             "path": "yocto-distro/meta-openembedded"
         },
         "meta-raspberrypi": {
             "git-remote": {
-                "branch": "mickledore",
+                "branch": "master",
                 "describe": "",
                 "remotes": {
                     "origin": {
                         "uri": "https://git.yoctoproject.org/meta-raspberrypi"
                     }
                 },
-                "rev": "aa0aed9a08d6578a18c4eeb3b44ed8354a57ebee"
+                "rev": "95a9103f914c3e2665a1ffe7f70533c44cb4f3af"
             },
             "path": "yocto-distro/meta-raspberrypi"
         },
         "meta-rauc": {
             "git-remote": {
-                "branch": "mickledore",
+                "branch": "master",
                 "describe": "",
                 "remotes": {
                     "origin": {
                         "uri": "https://github.com/rauc/meta-rauc.git"
                     }
                 },
-                "rev": "5a7cf7efd0a1ef9a946d51ba0a4bacdedefb4141"
+                "rev": "3e96177b9578d90bf0e010cf09a4d397aa667798"
             },
             "path": "yocto-distro/meta-rauc"
         },
         "poky": {
             "git-remote": {
-                "branch": "mickledore",
+                "branch": "master",
                 "describe": "yocto-4.2.2-134-gaa63b25cbe",
                 "remotes": {
                     "origin": {
                         "uri": "https://github.com/yoctoproject/poky.git"
                     }
                 },
-                "rev": "aa63b25cbe25d89ab07ca11ee72c17cab68df8de"
+                "rev": "6b356b74d83dbb088e4128cf933b8713b63898ce"
             },
             "path": "yocto-distro/poky"
         },

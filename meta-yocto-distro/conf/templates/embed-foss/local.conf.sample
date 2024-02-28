@@ -1,4 +1,5 @@
-MACHINE ??= "raspberrypi4-64"
+#MACHINE ??= "raspberrypi4-64"
+MACHINE ??= "qemuarm64"
 
 # Where to place downloads
 #
